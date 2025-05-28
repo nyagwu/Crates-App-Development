@@ -1,9 +1,52 @@
 body {
     font-family: monospace;
     background-color: blanchedalmond;
-    padding:0;
-    margin:0;
+    padding:20px;
+    margin:20px;
 }
+
+hr {
+    margin-top:35px;
+    /* margin-bottom:35px; */
+    border-color:black;
+}
+p {
+    line-height: 20px;
+}
+/* Index.html */
+nav {
+    /* text-align: center; */
+    width:100%;
+    list-style: none;
+}
+
+nav li{
+    text-decoration: underline;
+    padding-bottom:10px;
+}
+a {
+    color:black;
+}
+.unactive {
+    color:grey;
+    text-decoration: none;;
+}
+
+#menu {
+    background-color:gold;
+    padding:20px;
+}
+#title {
+    margin-top:0;
+    font-size:32px;
+    text-align: center;
+}
+#subtitle {
+    text-align:center;
+    font-style:italic;
+    margin-bottom:25px;
+}
+
 section {
     padding:25px 50px 15px;
     margin:0;
@@ -18,4 +61,18 @@ table, th, td {
 
 th {
     background-color:azure;
+}
+
+/* footer */
+footer {
+    text-align: right;
+}
+.footer-link p {
+    display:inline;
+}
+
+/* Subsequent Pages */
+/* TODO: fix this nav */
+#shortened-nav {
+    background-color:gold;
 }
